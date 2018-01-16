@@ -4,6 +4,22 @@ body {
     color: #818181;
 }
 
+#skills {
+    background-color: #e9ddc7 !important;
+}
+
+#contact {
+    background-color: #e9ddc7 !important;
+}
+
+#about {
+    background-color: #ffffff !important;
+}
+
+#projects {
+    background-color: #ffffff !important;
+}
+
 h2 {
     font-size: 24px;
     text-transform: uppercase;
@@ -12,6 +28,7 @@ h2 {
     margin-bottom: 30px;
         text-align: center;
 }
+
 
 h4 {
     font-size: 19px;
@@ -25,10 +42,15 @@ h4 {
 
 .portfolio-img {
     /* Add shadows to create the "card" effect */
-    background-color: white;
+    background-color: #e9ddc7;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    border-radius: 5px; /* 5px rounded corners */
+    border-radius: 50%; /* 5px rounded corners */
+    width: 330px;
+    height: 300px;
+    vertical-align: middle;
+    padding: 5px; /* Some padding */
+    border: 1px solid #ddd; /* Gray border */
 }
 
 /* commented the original cards out */
@@ -74,7 +96,8 @@ p {
 
 .navbar {
     margin-bottom: 0;
-    background: linear-gradient(#668e59, #a2b484);
+    /*background: linear-gradient(#668e59, #a2b484);*/
+    background: linear-gradient(#2c4653, #0e4d6c);
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
@@ -92,7 +115,7 @@ p {
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #668e59 !important;
+    color: #0e4d6c !important;
     background-color: #fff !important;
 }
 
@@ -102,8 +125,10 @@ p {
 }
 
 .jumbotron { 
-    background-color: #a2b484; /* Orange */
-    color: #ffffff;
+ /*   background-color: #a2b484; */
+    background-color: #e9ddc7; 
+/*    color: #ffffff;*/
+    color: #f05833;
     text-align: center;
     padding: 100px 25px;
     font-family: Montserrat, sans-serif;
@@ -170,7 +195,8 @@ footer .glyphicon:hover {
 
 footer {
     margin-top: 0;
-    background: linear-gradient(#a2b484, #668e59);
+/*    background: linear-gradient(#a2b484, #668e59);*/
+background: linear-gradient(#0e4d6c, #2c4653);
     font-family: Montserrat, sans-serif;
     color: #fff !important;
     padding: 10px !important;
